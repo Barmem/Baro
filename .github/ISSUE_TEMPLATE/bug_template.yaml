@@ -2,7 +2,6 @@ name: Репорт бага
 description: Отправить информацию об ошибке
 title: "[Баг]: "
 labels: [bug]
-
 body:
   - type: input
     attributes:
