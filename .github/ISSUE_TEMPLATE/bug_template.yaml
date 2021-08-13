@@ -22,6 +22,6 @@ body:
     attributes:
       label: Шаги для повторения
       description: Введите пошаговую инструкцию для повторения ошибки
-      placeholder: 1.
+      placeholder: "1."
     validations:
       required: false
