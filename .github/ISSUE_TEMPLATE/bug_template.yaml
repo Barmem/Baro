@@ -1,1 +1,25 @@
+name: Репорт бага
+description: Отправить информацию об ошибке
+title: "[Баг]: "
+labels: [bug]
 
+body:
+  - type: input
+    attributes:
+      label: Описание ошибки
+      description: Введите описание ошибки
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Скриншоты
+      placeholder: Вставьте скриншоты ошибки
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Шаги для повторения
+      description: Введите пошаговую инструкцию для повторения ошибки
+      placeholder: 1.
+    validations:
+      required: false
