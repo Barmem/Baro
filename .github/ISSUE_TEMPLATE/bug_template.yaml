@@ -14,7 +14,7 @@ body:
     id: photo
     attributes:
       label: Скриншоты
-      placeholder: Вставьте скриншоты ошибки
+      placeholder: "Вставьте скриншоты ошибки"
     validations:
       required: false
   - type: textarea
