@@ -4,18 +4,21 @@ title: "[Баг]: "
 labels: [bug]
 body:
   - type: input
+    id: desc
     attributes:
       label: Описание ошибки
       description: Введите описание ошибки
     validations:
       required: true
   - type: textarea
+    id: photo
     attributes:
       label: Скриншоты
       placeholder: Вставьте скриншоты ошибки
     validations:
       required: false
   - type: textarea
+    id: repeat
     attributes:
       label: Шаги для повторения
       description: Введите пошаговую инструкцию для повторения ошибки
